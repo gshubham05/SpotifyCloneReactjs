@@ -28,6 +28,7 @@ const DisplayHome = () => {
                         name={item.name}
                         image={item.image}
                         desc={item.desc}
+                        id = {item.id}
                     />))}
                 </div>
             </div>
