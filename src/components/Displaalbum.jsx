@@ -6,9 +6,9 @@ import { PlayerContext } from '../context/PlayerContext';
 
 const Displaalbum = () => {
     const { id } = useParams();
-    console.log(id)
+    // console.log(id)
     const albumData = albumsData[id];
-    console.log(albumData)
+    // console.log(albumData)
     const {playWithId} = useContext(PlayerContext)
     return (
         <>

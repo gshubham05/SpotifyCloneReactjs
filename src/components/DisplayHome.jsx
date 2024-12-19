@@ -4,7 +4,10 @@ import { albumsData } from '../assets/assets'
 import Albumitem from './Albumitem'
 import { songsData } from '../assets/assets'
 import Songsitem from './Songsitem'
+import { useLocation } from 'react-router-dom'
 const DisplayHome = () => {
+    const locaiton = useLocation()
+    console.log(locaiton)
     return (
         <>
             <Navbar />
